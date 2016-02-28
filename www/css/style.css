@@ -1,0 +1,16 @@
+.landingIcon{
+  width: 200px;
+  height: auto;
+}
+
+.navbarIcon{
+  width: 10%;
+  height: auto;
+
+}
+
+.section-heading-spacer{
+    float: left;
+    width: 500px;
+    border-top: 3px solid #e7e7e7;
+}
