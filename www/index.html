@@ -34,7 +34,7 @@
 
 </head>
 
-<body>
+<body id="page-top">
 
     <!-- Navigation -->
     <nav class="navbar navbar-default navbar-fixed-top topnav" role="navigation">
@@ -47,19 +47,19 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a href="#"><img class="navbarIcon" src="img/GenoxLogoBlack.png" alt=""></a>
+                <a class="js-scroll-trigger" href="#page-top"><img class="navbarIcon" src="img/GenoxLogoBlack.png" alt=""></a>
             </div>
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-right">
                     <li>
-                        <a href="#about">About</a>
+                        <a class="js-scroll-trigger" href="#about">About</a>
                     </li>
                     <li>
-                        <a href="#services">Services</a>
+                        <a class="js-scroll-trigger" href="#services">Services</a>
                     </li>
                     <li>
-                        <a href="#contact">Contact</a>
+                        <a class="js-scroll-trigger" href="#contact">Contact</a>
                     </li>
 										<!-- <li>
 												<a href="#blog">Blog</a>
@@ -73,7 +73,7 @@
 
 
     <!-- Header -->
-    <a name="about"></a>
+    <!-- <a name="about"></a> -->
     <div class="intro-header">
         <div class="container">
 
@@ -95,8 +95,8 @@
     <!-- /.intro-header -->
 
     <!-- Page Content -->
-
-	<a  name="services"></a>
+    <a name="about"></a>
+	
     <div class="content-section-a">
 
         <div class="container">
@@ -127,7 +127,7 @@
 
     </div>
     <!-- /.content-section-a -->
-
+    <a name="services"></a>
     <div class="content-section-b">
 
         <div class="container">
@@ -137,21 +137,39 @@
                     <hr class="section-heading-spacer">
                     <div class="clearfix"></div>
                     <h2 class="section-heading">Technologies</h2>
-                    <p class="lead">Utilising modern web frameworks and technologies with a keen focus on open source but using proprietary software where advantageous; we work closely with our clients to deliver their application to their expectations<br>
+                    <p class="lead">Utilising modern web frameworks and technologies with a keen focus on open source but using proprietary software where advantageous; we work closely with our clients to deliver their application to expectations<br>
 						</br> Our expertise encompasses the full stack; from databases, RESTFul APIs and backend server infrastructure to client side application UI/UX and front end development</p>
                 </div>
                 <div class="col-lg-5 col-sm-pull-6 col-sm-6">
 				    <div class="row">
-						<div class="col-xs-6">
-                            <img class="img-responsive" src="img/ionic square.png" alt="">
+						<div class="col-xs-3">
+                           <a href="http://www.ionicframework.com">
+                            <img class="img-responsive" src="img/ionic square.png" alt="" style="padding-top: 10px">
+                           </a> 
 						</div>
-
-						<div class="col-xs-6">
-                            <img class="img-responsive" src="img/angular.png" alt="" style="padding-right: 30px;">
-						</div>
-						<div>
-                            <img class="img-responsive" src="img/mobile-first2.png" alt="" style="margin-left: 50px;">
-						</div>
+						<div class="col-xs-3">
+                            <a href="http://www.angular.io">
+                                <img class="img-responsive" src="img/angular.png" alt="">
+                            </a>
+                        </div>
+                        <div class="col-xs-3">
+                            <a href="http://www.getbootstrap.com">
+                            <img class="img-responsive" src="img/bootstrap-solid.svg" alt="">
+                            </a>
+                        </div>
+                        <div class="col-xs-3">
+                            <a href="http://www.wordpress.org">
+                                <img class="img-responsive" src="img/wordpress-logo-notext-rgb.png" alt="">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-xs-12">
+                            <a href="https://www.ibm.com/mobilefirst/uk/en/">
+                            <img class="img-responsive" src="img/MobileFirst-logo.jpg" alt="">
+                            </a>
+                        </div>
+                     
                     </div>
                 </div>
 
@@ -160,7 +178,7 @@
 
     </div>
     <!-- /.content-section-b -->
-
+    <a name="contact"></a>
     <div class="content-section-a">
 
         <div class="container">
@@ -191,7 +209,7 @@
     </div>
     <!-- /.content-section-a -->
 
-	<a  name="contact"></a>
+	
     <div class="banner">
 
         <div class="container">
@@ -199,7 +217,8 @@
             <div class="row">
                 <div class="col-lg-6">
                     <h2>Get in touch with Genox</h2>
-                    <p class="lead"> Drop us a line on the following channels, we'd love to talk to you </p>
+                    <br>
+                    <p class="lead"> Drop us a line using one of these channels, we'd love to talk to you </p>
                 </div>
                 <div class="col-lg-6">
                     <ul class="list-inline banner-social-buttons">
@@ -262,6 +281,10 @@
 
     <!-- Bootstrap Core JavaScript -->
     <script src="js/bootstrap.min.js"></script>
+
+    <!-- Custom JavaScript for this theme -->
+    <script src="js/jquery.easing.min.js"></script>
+    <script src="js/scrolling-nav.js"></script>
 
 </body>
 
