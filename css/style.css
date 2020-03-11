@@ -35,3 +35,7 @@
 .navbar-fixed-top {
   position: absolute;
 }
+
+.logo-padding {
+  padding-top: 1em;
+}
