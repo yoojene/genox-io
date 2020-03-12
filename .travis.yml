@@ -9,7 +9,9 @@ before_install:
   - chmod 600 travis_rsa
   - mv travis_rsa ~/.ssh/id_rsa
 
-after_install:
-  - bash ./deploy.sh
+deploy:
+  skip_cleanup: true
+  provider: script
+  script: ./deploy.sh
 
 
