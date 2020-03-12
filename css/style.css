@@ -39,3 +39,11 @@
 .logo-padding {
   padding-top: 2em;
 }
+
+.logo-padding-extra {
+  padding-top: 3em;
+}
+
+.logo-max-width {
+  width: 100%;
+}
