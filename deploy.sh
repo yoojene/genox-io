@@ -3,11 +3,11 @@ set -xe
 
 if [ $TRAVIS_BRANCH == 'master' ] ; then
   eval "$(ssh-agent -s)"
-  ssh-add ~/.ssh/id_rsa
-  
+  ssh-add ~/.ssh/travis_rsa
+
   git init
 
-  git remote add deploy "git@github.com:yoojene/genox-io.git"
+  git remote add deploy "travis@genox.io:/var/www/genox.io/html"
   git config user.name "Travis CI"
   git config user.email "travisci@genox.io"
 
