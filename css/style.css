@@ -22,6 +22,7 @@
 
 .ibmbp {
   height: 72px !important;
+  margin-left: 8%;
 }
 
 .ionic {
@@ -46,4 +47,8 @@
 
 .logo-max-width {
   width: 100%;
+}
+
+.gcloud {
+  margin-top: 15%
 }
