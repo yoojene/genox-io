@@ -10,3 +10,4 @@ put -r css/
 put -r img/
 put index.html
 !
+echo 'Deploy complete!'
